@@ -1,0 +1,13 @@
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.deps.json
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\bin\Debug\netcoreapp3.1\Entidades.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\bin\Debug\netcoreapp3.1\Entidades.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csproj.AssemblyReference.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.AssemblyInfoInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.AssemblyInfo.cs
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csproj.CoreCompileInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csproj.CopyComplete
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.pdb

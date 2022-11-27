@@ -1,0 +1,46 @@
+﻿@model IEnumerable<FE_Pryecto_FInalAPI.Models.Unidades>
+
+@{
+    ViewData["Title"] = "ListarUnidades";
+}
+
+<h1>Listar Unidades - Buses</h1>
+
+<p>
+    <a asp-action="AbrirAgregarUnidades" asp-controller="Unidades" class="btn bg-info text-white">Nueva Unidad</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.ActionLink("Modificar", "AbrirModificarUnidades", new { Id = item.Id, Estado = item.Estado, Placa = item.Placa }, new { @class = "btn btn-warning mr-2" }) |
+                @Html.ActionLink("Eliminar", "EliminarUnidades", new { placa = item.Placa }, new { @class = "btn btn-danger ml-2" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

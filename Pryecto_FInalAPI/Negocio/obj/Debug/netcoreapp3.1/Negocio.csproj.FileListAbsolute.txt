@@ -1,0 +1,15 @@
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\AccesoDatos.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\Entidades.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\AccesoDatos.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\bin\Debug\netcoreapp3.1\Entidades.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.AssemblyReference.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CopyComplete
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb

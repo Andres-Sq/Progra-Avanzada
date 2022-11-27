@@ -1,0 +1,12 @@
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.deps.json
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.runtimeconfig.json
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.runtimeconfig.dev.json
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\bin\Debug\netcoreapp3.1\Entidades.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfoInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfo.cs
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.CoreCompileInputs.cache
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.dll
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.pdb
+F:\asu00\Descargas\Universidad\Programacion Avanzada\VS\Pryecto_FInalAPI\Entidades\obj\Debug\netcoreapp3.1\Entidades.genruntimeconfig.cache

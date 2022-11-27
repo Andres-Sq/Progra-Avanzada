@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="showcase-bundle pt-0">
+    <div class="container"> 
+        <div class="row">
+            @*@if (User.IsInRole("1,2"))
+            {*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fas fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Unidades </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="Unidades" asp-action="ListarUnidades">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*}*@
+            @*@if (User.IsInRole("1,2"))
+            {*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fas fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Unidad Asignada </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="UnidadAsignada" asp-action="ListarUnidadAsignada">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*}*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fas fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Choferes </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="Choferes" asp-action="ListarChoferes">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*@if (User.IsInRole("1,2"))
+            {*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fas fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Ruta </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="Ruta" asp-action="ListarRutas">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*}
+            @if (User.IsInRole("1,2"))
+            {*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fa fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Ruta Chofer </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="RutaChofer" asp-action="ListarRutaChofer">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*}
+            @if (User.IsInRole("1,2"))
+            {*@
+            <div class="col-md-4 mb-5">
+                <div class="card h-100 card-showcase">
+                    <i class="fa fa-square fa-4x pt-md-3"></i>
+                    <div class="card-body text-md-center">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col">
+                                <h5 class="text-uppercase fw-bold"> Usuario </h5>
+                                <a class="btn btn-outline-success" asp-area="" asp-controller="Usuario" asp-action="ListarUsuario">Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*}*@
+        </div>
+    </div>
+</section>

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<FE_Pryecto_FInalAPI.Models.Ruta>
+
+@{
+    ViewData["Title"] = "ListarRutas";
+}
+
+<h1>Listar Rutas</h1>
+
+<p>
+    <a asp-action="AbrirNuevaRuta" asp-controller="Ruta" class="btn bg-info text-white">Nueva Ruta</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreRuta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadParadas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoPasaje)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreRuta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadParadas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontoPasaje)
+            </td>
+            <td>
+                @Html.ActionLink("Modificar", "AbrirModificarRuta", new { id=item.Id, nombreruta=item.NombreRuta, cantidadparadas=item.CantidadParadas, montopasaje=item.MontoPasaje }, new { @class = "btn btn-warning mr-2" }) |
+                @Html.ActionLink("Eliminar", "EliminarRuta", new { nombreruta = item.NombreRuta, montopasaje = item.MontoPasaje }, new { @class = "btn btn-danger ml-2" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

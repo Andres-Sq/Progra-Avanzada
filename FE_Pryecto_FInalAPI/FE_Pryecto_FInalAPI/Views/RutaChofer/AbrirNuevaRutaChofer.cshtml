@@ -1,0 +1,48 @@
+﻿@model FE_Pryecto_FInalAPI.Models.RutaChofer
+
+@{
+    ViewData["Title"] = "AbrirNuevaRutaChofer";
+}
+
+<h1>Nueva Ruta de Chofer</h1>
+
+<h4>Ruta del Chofer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AgregarRutaChofer" asp-controller="RutaChofer" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodEmpleado" class="control-label"></label>
+                <input asp-for="CodEmpleado" class="form-control" required placeholder="123" />
+                <span asp-validation-for="CodEmpleado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NombreRuta" class="control-label"></label>
+                <input asp-for="NombreRuta" class="form-control" required placeholder="Origen-Destino de la ruta" />
+                <span asp-validation-for="NombreRuta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantidadPasajeros" class="control-label"></label>
+                <input asp-for="CantidadPasajeros" class="form-control" required placeholder="Cantidad" />
+                <span asp-validation-for="CantidadPasajeros" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MontoPasaje" class="control-label"></label>
+                <input asp-for="MontoPasaje" class="form-control" required placeholder="Monto Exacto de la ruta" />
+                <span asp-validation-for="MontoPasaje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Agregar" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListarRutaChofer" asp-controller="RutaChofer">Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

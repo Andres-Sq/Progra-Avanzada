@@ -1,0 +1,43 @@
+﻿@model FE_Pryecto_FInalAPI.Models.Unidades
+
+@{
+    ViewData["Title"] = "AbrirAgregarUnidades";
+}
+
+<h1>AbrirAgregarUnidades</h1>
+
+<h4>Unidades</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AgregarUnidades" asp-controller="Unidades" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+               <label asp-for="Estado" class="control-label"></label>
+               <select asp-for="Estado" class="form-control">
+                    <option selected="selected" value="Disponible">Disponible</option>
+                    <option value="Reparacion">Reparacion</option>
+                    <option value="Desechado">Desechado</option>
+                    <option value="Inactivo">Inactivo</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Placa" class="control-label"></label>
+                <input asp-for="Placa" class="form-control" placeholder="ABC-123 / 123456" required />
+                <span asp-validation-for="Placa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Agregar" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListarUnidades" asp-controller="Unidades">Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

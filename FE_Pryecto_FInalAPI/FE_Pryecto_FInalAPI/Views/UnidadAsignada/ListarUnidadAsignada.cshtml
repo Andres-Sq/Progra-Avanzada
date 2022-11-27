@@ -1,0 +1,46 @@
+﻿@model IEnumerable<FE_Pryecto_FInalAPI.Models.UnidadAsignada>
+
+@{
+    ViewData["Title"] = "ListarUnidadAsignada";
+}
+
+<h1>Listar Unidadades Asignadas</h1>
+
+<p>
+    <a asp-action="AbrirNuevaUnidadAsignada" asp-controller="UnidadAsignada" class="btn bg-info text-white">Registro nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodEmpleado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodEmpleado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.ActionLink("Modificar", "AbrirModificarUnidadAsignada", new { id = item.Id, codempleado = item.CodEmpleado, placa = item.Placa }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Eliminar", "EliminarUnidadAsignada", new { id = item.Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
